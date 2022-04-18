@@ -21,3 +21,8 @@ CREATE TABLE `app_detail` (
   `user_feedback` varchar(255) NOT NULL,
   `about_us` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+CREATE TABLE `happy_food` (
+  `food_offer` varchar(255) NOT NULL,
+  `food_discount` int(9) unsigned NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
