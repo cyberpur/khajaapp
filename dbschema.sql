@@ -26,3 +26,5 @@ CREATE TABLE `happy_food` (
   `food_offer` varchar(255) NOT NULL,
   `food_discount` int(9) unsigned NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO `food_menu` (`id`, `food_name`, `food_price`) VALUES (NULL, 'steam momo', '150.00');
